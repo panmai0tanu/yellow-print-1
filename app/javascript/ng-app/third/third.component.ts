@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import templateString from './first.html';
+import templateString from './third.html';
 import { UserService } from '../user/user.service';
 import { I18n } from '../utils/i18n';
 
@@ -7,7 +7,7 @@ import { I18n } from '../utils/i18n';
   template: templateString,
   providers: [ UserService, I18n ]
 })
-export class FirstComponent {
+export class ThirdComponent {
   user: any;
   users: any[];
   greeting: string;
