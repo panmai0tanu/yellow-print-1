@@ -30,6 +30,7 @@ module FeatureHelper
     fill_in 'Email', with: user.email
     fill_in 'Password', with: user.password
 
+    #find('name').click
     click_button 'Log in'
     sleep 1
   end
